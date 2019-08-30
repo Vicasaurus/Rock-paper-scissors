@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Papir,Kamen,Makaze</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="kamen.png">
+
+</head>
+<body>
+    <header>
+        <h1>Papir Kamen Makaze</h1>
+    </header>
+    <div class="tabela">
+        <div id="znak-korisnik" class="znak">User</div>
+        <div id="znak-komp" class="znak">Computer</div>
+        <span id="rezultat-korisnik">0</span>:<span id="rezultat-kompjuter">0</span>
+    </div>
+
+    <div class="rezultat">
+            <p></p>
+    </div>
+
+    <div class="izbori">
+        <div class="izbor" id="kamen">
+            <img src="kamen.png" alt="" >
+        </div>
+        <div class="izbor" id="papir" >
+            <img src="papir.jpg" alt="">
+        </div>
+        <div class="izbor" id="makaze">
+            <img src="makaze.jpg" alt="">
+        </div>
+    </div>
+
+    <p id="tvoj-potez">Make your move!</p>
+    <div class="reset-div">
+       <button  class="reset" onclick="reset()">Reset score</button>
+    </div>
+
+
+    <script src="main.js" charset="UTF-8"></script>
+</body>
+</html>

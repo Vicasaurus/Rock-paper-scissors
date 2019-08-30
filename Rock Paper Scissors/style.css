@@ -1,0 +1,139 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: #2D4671;
+    margin: 0 auto;
+}
+
+
+header {
+    background: white;
+    padding: 20px;
+
+}
+
+header > h1 {
+    text-align: center;
+    font-family: 'Asap' , sans-serif;
+    color: black
+
+}
+
+.tabela{
+    margin: 20px auto;
+    border: 3px solid white;
+    width: 300px;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 45px;
+    padding: 15px 20px;
+    font-family: 'Asap' , sans-serif;
+    position: relative;
+}
+
+.znak {
+    font-size: 15px;
+    background: #FF580D;
+    padding: 2px 8px;
+    font-family: 'Asap' , sans-serif;
+}
+
+#znak-korisnik {
+    position: absolute;
+    top: 30px;
+    left: -40px;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#znak-komp {
+    position: absolute;
+    top: 30px;
+    right: -40px;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.rezultat{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+.rezultat > p {
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Asap' , sans-serif;
+    color: white;
+
+}
+
+.izbor {
+    display: inline-block;
+    border: 5px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px 20px;
+    transition: all 0.4s ease;
+
+}
+
+.izbori {
+    text-align: center;
+
+}
+
+.izbor:hover {
+    cursor: pointer;
+    background: white;
+}
+
+#tvoj-potez {
+    text-align: center;
+    font-family: 'Asap' , sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+img{
+  width:150px;
+  height: 150px;
+  border-radius: 100%;
+
+}
+.reset-div{
+  width:100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+
+}
+.reset{
+
+  display: block;
+  line-height: 0;
+background:red;
+border-radius: 5px;
+  width: 100px;
+  height: 40px;
+margin: 50px 100px auto;
+font-family: 'Asap';
+font-size: 15px;
+}
+.reset:hover{
+  background: white;
+  transition: all 0.5s ease;
+}
